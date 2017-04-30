@@ -22,6 +22,7 @@ brew 'yarn'
 brew 'mas'
 brew 'heroku'
 brew 'watchman'
+brew 'cocoapods'
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Slack', id: 803453959
 mas 'Xcode', id: 497799835
