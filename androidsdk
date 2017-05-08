@@ -13,22 +13,22 @@ echo y | android update sdk --no-ui --all --filter platform-tools | grep 'packag
 
 # SDKs
 # Please keep these in descending order!
-echo y | android update sdk --no-ui --all --filter android-25 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-24 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-23 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-22 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-21 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-20 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter android-19 | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-25 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-24 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-23 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-22 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-21 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-20 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter android-19 --use-sdk-wrapper | grep 'package installed'
 
 # build tools
 # Please keep these in descending order!
-echo y | android update sdk --no-ui --all --filter build-tools-25.0.1 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter build-tools-25.0.0 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter build-tools-23.0.3 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter build-tools-23.0.2 | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter build-tools-23.0.1 | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter build-tools-25.0.1 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter build-tools-25.0.0 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter build-tools-23.0.3 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter build-tools-23.0.2 --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter build-tools-23.0.1 --use-sdk-wrapper | grep 'package installed'
 
 # Extras
-echo y | android update sdk --no-ui --all --filter extra-android-m2repository | grep 'package installed'
-echo y | android update sdk --no-ui --all --filter extra-google-m2repository | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter extra-android-m2repository --use-sdk-wrapper | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter extra-google-m2repository --use-sdk-wrapper | grep 'package installed'
