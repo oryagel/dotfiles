@@ -18,7 +18,6 @@ cask 'keepingyouawake'
 cask 'ngrok'
 brew 'git'
 brew 'node@6', args: ['without-npm']
-brew 'yarn'
 brew 'mas'
 brew 'heroku'
 brew 'watchman'
