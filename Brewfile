@@ -17,7 +17,7 @@ cask 'sourcetree'
 cask 'keepingyouawake'
 cask 'ngrok'
 brew 'git'
-brew 'node@6', args: ['without-npm']
+brew 'node@6'
 brew 'mas'
 brew 'heroku'
 brew 'watchman'
