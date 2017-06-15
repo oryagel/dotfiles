@@ -22,6 +22,7 @@ brew 'mas'
 brew 'heroku'
 brew 'watchman'
 brew 'cocoapods'
+brew 'yarn', args: ['ignore-dependencies']
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Slack', id: 803453959
 mas 'Xcode', id: 497799835
