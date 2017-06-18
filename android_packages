@@ -13,3 +13,4 @@ platforms;android-24
 platforms;android-25
 extras;android;m2repository
 extras;google;m2repository
+system-images;android-24;google_apis_playstore;x86
